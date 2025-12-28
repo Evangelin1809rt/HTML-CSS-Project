@@ -18,7 +18,7 @@ This project helps in understanding the fundamentals of front-end web developmen
 > HTML5
 > CSS3
 
-###📂 Project Structure:
+#📂 Project Structure:
 
 HTML-CSS-Project/
 │
@@ -26,8 +26,10 @@ HTML-CSS-Project/
 │   └── style.css
 ├── images/
 │   └── logo.png
-├── webpage.html
-├── Videos.html
+├── index.html
+     └── calm.png
+├── About.html
+     └── TeamSolutions.jpeg
 ├── Contactus.html
 ├── Registration.html
 └── README.md
