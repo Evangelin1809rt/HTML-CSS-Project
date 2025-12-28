@@ -1,112 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>About</title>
-    <style>
+<title>About</title>
 
-    body{
-        margin:0;
-        overflow-x:hidden;
-    }
+<style>
+body{
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-    img{
-        width:100%;
-        height:100vh;
-        object-fit:cover;
-        filter: blur(3px);
-    }
+.about-bg{
+    position: relative;
+    height:100vh;
+    background-image:"TeamSolution.jpeg";
+    background-size: cover;
+    background-position: center;
+}
 
-    .overlay{
-        position:absolute;
-        top:0;
-        left:0;
-        width:100%;
-        height:100vh;
-        background-color: rgba(49, 29, 29, 0.5);
-    }
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(49,29,29,0.5);
+}
 
-    .h1{
-        color: rgb(49, 49, 156);
-        position:absolute;
-        top: 20%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        font-family: serif;
-        z-index:2;
-    }
+.h1{
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:rgb(49,49,156);
+}
 
-    .text{
-        position:absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        font-size: 22px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        z-index:2;
-    }
+.text{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:22px;
+}
 
-    .para{
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        font-size: 20px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        z-index:2;
-    }
+.para{
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:20px;
+}
 
-    .homie{
-        position: absolute;
-        bottom: 40px;
-        left:50%;
-        transform:translateX(-50%);
-        z-index:2;
-    }
+.homie{
+    position:absolute;
+    bottom:40px;
+    left:50%;
+    transform:translateX(-50%);
+}
 
-    a{
-        color: blue;
-        font-size: 18px;
-        margin: 0 20px;
-        text-decoration:none;
-    }
-
-    </style>
+a{
+    margin:0 15px;
+    font-size:18px;
+    text-decoration:none;
+}
+</style>
 </head>
 
 <body>
+<img src="TeamSolution.jpeg">
+<div class="about-bg">
+    <div class="overlay"></div>
 
-<img src="TeamSolution.jpeg" alt="Image can't be loaded">
+    <h1 class="h1">🌐 TEAM TECH SOLUTIONS</h1>
 
-<div class="overlay"></div>
+    <p class="text">
+    TEAM TECH SOLUTIONS is a growing startup company focused on creating smart, simple, and reliable digital solutions.
+    </p>
 
-<h1 class="h1">🌐 TEAM TECH SOLUTIONS</h1>
+    <p class="para">
+    We specialize in website development, basic software solutions, and digital support services.
+    </p>
 
-<p class="text">
-TEAM TECH SOLUTIONS is a growing startup company focused on creating smart, simple, and reliable digital solutions for individuals and small businesses.
-Founded by young innovators, our goal is to use technology to solve everyday problems in an easy and affordable way.
-</p>
-
-<p class="para">
-We specialize in website development, basic software solutions, and digital support services that help businesses build a strong online presence.
-Our team believes that technology should be user-friendly, accessible, and meaningful for everyone, not just large organizations.
-</p>
-
-<div class="homie">
-    <a href="index.html">HOME</a>
-    <a href="Contactus.html">CONTACT US</a>
-    <a href="Registration.html">REGISTRATION</a>
-    <a href="Registration.html">LOGIN</a>
+    <div class="homie">
+        <a href="index.html">HOME</a>
+        <a href="Contactus.html">CONTACT</a>
+        <a href="Registration.html">REGISTER</a>
+        <a href="Registration.html">LOGIN</a>
+    </div>
 </div>
 
 </body>
 </html>
-
-
-
-
-
-
-
-
 
 
