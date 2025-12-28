@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+    <style>
+     .size{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     .colouring{
+        background-color: rgb(234, 160, 172);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+     }
+     .row{
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+     }
+     .row label{
+        width: 150px;
+     }
+     .row input,
+     .row select,
+     .row textarea{
+        width: 250px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     .gender input{
+        width:auto;
+     }
+     .address-row{
+        align-items: center;
+     }
+     .button input{
+        width: 120px;
+        padding: 6px;
+        margin: 5px;
+        cursor: pointer;
+     }
+     .colouring{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin:0;
+     }
+    </style>
+</head>
+<body class="colouring">
+        <h2><u>REGISTRATION FORM</u></h2>
+        <p class="size">Please fill the form to Register</p>
+    <hr>
+    <form>
+    <div class="row">
+        <label>Name:</label>
+        <input type="text" placeholder="ENTER YOUR NAME">
+        </div>
+
+        <div class="row">
+        <label>Email:</label>
+        <input type="emal" placeholder="ENTER YOUR EMAIL">
+        </div>
+
+        <div class="row">
+        <label>Ph No: </label>
+        <input type="number" placeholder="ENTER YOUR NUMBER">
+        </div>
+
+        <div class="row">
+        <label>Gender: </label>
+        <div class="gender">
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">TransGender
+        <input type="radio" name="gender">Others
+        </div>
+        </div>
+        
+        <div class="row">
+        <label>Date of Birth: </label>
+        <input type="date">
+        </div>
+
+        <div class="row">
+                <label>
+                    Select Course:
+                </label>
+                    <select class="size">
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>Java Script</option>
+                    <option>Web Development</option>
+                </select>
+            </div>
+        <div class="row address-row">
+        <label>Address:</label>
+        <textarea rows="4" placeholder="ENTER YOUR ADDRESS"></textarea>
+        </div><br>
+        <div class="checkrow">
+            <input type="checkbox" required>
+             <label>I agree to the terms and conditions</label>
+        </div><br>
+
+        <div class="button">
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </div>
+        <hr>
+    </form>
+<p>Already Register? <a href="C:\Users\EVANGELIN\Desktop\HTML Tutorial\webpage.html">Login here</a></p>
+</body>
+</html>
