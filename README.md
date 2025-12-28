@@ -18,7 +18,8 @@ This project helps in understanding the fundamentals of front-end web developmen
 > HTML5
 > CSS3
 
-###📂 Project Structure
+###📂 Project Structure:
+
 HTML-CSS-Project/
 │
 ├── css/
