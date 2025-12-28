@@ -6,13 +6,16 @@
 
   body{
     margin:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-  .bg-img{
+  .about-bg{
+    position:relative;
     background-image:"TeamSolution.jpeg";
     width:100%;
     height:100vh;
-    object-fit:cover;
+    background-size:cover;
+    background-position:center;
     filter: blur(2px);
   }
 
@@ -53,7 +56,7 @@
 
   .homie{
     position:absolute;
-    top:80%;
+    bottom:80px;
     left:50%;
     transform:translateX(-50%);
   }
@@ -61,6 +64,7 @@
   a{
     margin:0 15px;
     font-size:18px;
+    text-decoration:none;
   }
 
   </style>
@@ -68,9 +72,9 @@
 
 <body>
 
-<img src="TeamSolution.jpeg" class="bg-img" alt="Image can't be loaded">
+<img src="TeamSolution.jpeg" class="about-bg" alt="Image can't be loaded">
+<div class="about-bg">
 <div class="overlay"></div>
-
 <h1 class="h1">🌐 TEAM TECH SOLUTIONS</h1>
 
 <p class="text">
@@ -88,9 +92,10 @@ We specialize in website development, basic software solutions, and digital supp
   <a href="Registration.html">REGISTER</a>
   <a href="Registration.html">LOGIN</a>
 </div>
-
+</div>
 </body>
 </html>
+
 
 
 
